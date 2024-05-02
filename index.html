@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Update</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        .contain {
+            text-align: center;
+            padding-top: 20px;
+            border: 2px solid black;
+            margin: 40px;
+            margin-bottom: 70px;
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        table,tr{
+            border: 1px solid black;
+        }
+        table,
+        tr,td{
+            text-align:right;
+            margin-bottom: 30px;
+            margin-left: 60px;
+            padding-left: 90px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        .co{
+            text-align: right;
+            padding-right: 100px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .sel{
+            width: 187px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div style="font-family: cursive;">
+            <h2>Event</h2>
+        </div>
+        <p> Number of available seats: 23</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td><img src="https://pics.craiyon.com/2023-09-28/e24d57539fdb4861a3c3b8b4a062ef3a.webp" width="100px" height="100px"
+                        alt="Image"></td>
+                    <td class="co">
+                        <label for="name">Name:</label>
+                        <input type="text" name="" id="name"><br>
+                        <label for="mail">Email:</label>
+                        <input type="text" name="" id="mail"><br>
+                        <label for="pn">Phone No:</label>
+                        <input type="text" name="" id="pn"><br>
+                        <label for="seat" style="padding-right: 3px;">Number of seats:</label>
+                        <select name="" id="seat" class="sel">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select><br>
+                        <label for="atten">Name of attendee 2:</label>
+                        <input type="text" name="" id="atten"><br><br>
+                        <div style="font-family: cursive;">
+                            <input type="submit" value="Submit" style="width: 140px;">
+                            <input type="submit" value="Cancel" style="width: 140px;">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
